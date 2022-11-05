@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 98 Fibonacci numbers
+ *  main - Prints the first 98 Fibonacci numbers
  *
  *  Return: Always 0.
  */
@@ -20,7 +20,7 @@ int main(void)
 		{
 			fn = n1 + n2;
 			printf(", %ld", fn);
-			n1 = n2
+			n1 = n2;
 			n2 = fn;
 		}
 		else
@@ -42,7 +42,7 @@ int main(void)
 			n2 = fn;
 			n22 = (fn2 % 1000000000);
 		}
-		fn(((n1 + n2) < 0) && boolean == 1)
+		if (((n1 + n2) < 0) && boolean == 1)
 			boolean = 0;
 	}
 	printf("\n");
