@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the add of the even-valued
- *fibonacci numbers.
+ * fibonacci numbers.
  *
  * Return: Always 0.
  */
